@@ -1,5 +1,6 @@
 #! /bin/bash
 
+echo "<--Updating apt modules--->"
 sudo apt update
 echo "<--Installing apt modules--->"
 sudo apt install -y curl git wget
