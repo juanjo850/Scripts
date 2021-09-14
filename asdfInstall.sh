@@ -3,7 +3,7 @@
 echo "<--Updating apt modules--->"
 sudo apt update
 echo "<--Installing apt modules--->"
-sudo apt install -y curl git wget
+sudo apt install -y curl git wget unzip gcc
 echo "<---Installing asdf--->"
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 echo "" >> ~/.bashrc
